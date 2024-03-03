@@ -1,0 +1,45 @@
+/* Bold *******************************/
+@font-face {
+    font-family: 'vazir-bold';
+    src: url('vazir-bold.eot');
+    src: url('vazir-bold.eot?#iefix') format('embedded-opentype'),
+         url('vazir-bold.woff') format('woff'),
+         url('vazir-bold.ttf') format('truetype');
+    font-weight: bold;
+}
+/* Medium *******************************/
+@font-face {
+    font-family: 'vazir-medium';
+    src: url('vazir-medium.eot');
+    src: url('vazir-medium.eot?#iefix') format('embedded-opentype'),
+         url('vazir-medium.woff') format('woff'),
+         url('vazir-medium.ttf') format('truetype');
+    font-weight: 200;
+}
+/* Regular *******************************/
+@font-face {
+    font-family: 'vazir';
+    src: url('vazir.eot');
+    src: url('vazir.eot?#iefix') format('embedded-opentype'),
+         url('vazir.woff') format('woff'),
+         url('vazir.ttf') format('truetype');
+    font-weight: normal;
+}
+/* Light *******************************/
+@font-face {
+    font-family: 'vazir-light';
+    src: url('vazir-light.eot');
+    src: url('vazir-light.eot?#iefix') format('embedded-opentype'),
+         url('vazir-light.woff') format('woff'),
+         url('vazir-light.ttf') format('truetype');
+    font-weight: 300;
+}
+/* Thin *******************************/
+@font-face {
+    font-family: 'vazir-thin';
+    src: url('vazir-thin.eot');
+    src: url('vazir-thin.eot?#iefix') format('embedded-opentype'),
+         url('vazir-thin.woff') format('woff'),
+         url('vazir-thin.ttf') format('truetype');
+    font-weight: 100;
+}

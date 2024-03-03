@@ -1,0 +1,241 @@
+@import url(reset.css);
+@import url(../fonts/font-vazir.css);
+body, input, button{
+   font-family: vazir;
+}
+body{
+    direction: rtl;
+    /* background-color: red; */
+}
+*{
+   box-sizing: border-box;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+.clearFix{
+    clear: both;
+}
+/* header */
+#header{
+    height: 700px;
+    background: linear-gradient(256deg, rgba(41,16,144,1) 0%, rgba(34,76,255,1) 100%);
+}
+#header .container .logo{
+    float: right;
+    margin-top: 10px;
+}
+#header .container .logo:hover{
+   opacity: 0.7;
+}
+#header .container .logo img{
+    width: 120px;
+}
+/* navigation */
+#header .navigation{
+    float: left;
+}
+ .navigation ul li{
+    display: inline-block;
+    margin-top: 20px;
+ }
+ .navigation ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+ }
+ .navigation ul li a:hover{
+    border-bottom: 2px solid white;
+    background-color: blue;
+    transition: 1s;
+ }
+ .headerContent{
+    text-align: center;
+    padding: 50px;
+ }
+ .headerContent .mainContent{
+    font-family: vazir-bold;
+    font-size: 4vw;
+    color: #fff;
+    padding: 10px;
+ }
+ .headerContent .join{
+    color: #fff;
+    padding: 20px;
+    font-size: 1.5em;
+ }
+ .headerContent .register{
+    padding: 20px;
+ }
+ .headerContent .register .email{
+    padding: 15px 10px;
+    width: 50%;
+    border-radius: 4px;
+    margin: 0 10px;
+    border: none;
+ }
+ .headerContent .register .submit-btn{
+    padding: 15px 20px;
+    color:white;
+    border-radius: 4px;
+    border: none;
+    background-color: #212121 ;
+ }
+ .headerContent .register .submit-btn:hover{
+    background-color: #101010;
+    cursor: pointer;
+    box-shadow:0px 0px 33px 0px rgba(0,0,0,0.75) ;
+ }
+ .headerContent .sarcasm{
+    padding: 20px;
+    color: white;
+    font-size: larger;
+ }
+ .headerContent .subscribe-img{
+   margin-top: 100px;
+   width: 100%;
+   height: auto;
+   max-width:40vw;
+ }
+
+ /* why us */
+ 
+ .why-us{
+   margin-top: 15%;
+   text-align: center;
+ }
+ .why-us .item{
+   width: 30%;
+   box-shadow:0px 5px 17px -1px rgba(0,0,0,0.75) ;
+   margin: 15px;
+   display: inline-block;
+   text-align: right;
+   border-radius: 10px;
+   padding: 10px;
+   min-width: 20%;
+ }
+ .why-us .item:hover{
+   box-shadow: 0px 0px 19px 3px rgba(0,0,0,0.75);
+ }
+ .why-us .item .logo svg{
+   font-size: 50px;
+   /* padding-right: 40%; */
+   color: rgb(13, 21, 161)
+ }
+ .why-us .title{
+   font-family: vazir-bold;
+   font-size:1.5vw;
+   padding: 10px 0px;
+ }
+ .why-us .content{
+   line-height: 25px;
+   padding: 10px 0;
+ }
+
+ /* customers */
+ #customers{
+   text-align: center;
+   margin-top: 40px;
+   background-image: url('../images/ny.jpeg');
+   background-size: cover;
+   background-attachment: fixed;
+   height: 200px;
+ }
+ #customers .customer-header{
+   font-size: 2em;
+   padding: 30px 0px;
+   color: #fff;
+ }
+ #customers .customer-header:before{
+   content: " －O－";
+ }
+ #customers .customer-header:after{
+   content: "－O－ ";
+ }
+ #customers .customer-names .logo{
+   display: inline-block;
+   width: 200px;
+   padding:0 20px;
+ }
+#customers .logo:hover{
+   opacity: 0.7;
+}
+ /* posts */
+ #posts{
+   margin-top: 30px;
+   text-align: center;
+ }
+ #posts .item{
+   width: 30%;
+   margin: 15px;
+   display: inline-block;
+   border-radius: 5px;
+   position: relative;
+   box-shadow:-2px 0px 17px 6px rgba(0,0,0,0.75) ;
+ }
+ #posts .item:hover{
+   box-shadow: -2px 0px 11px 12px rgba(0,0,0,0.75);
+ }
+ #posts .title{
+   text-align: right;
+   padding: 10px 5px;
+   font-family: vazir-bold;
+   font-size: 18px;
+ }
+ #posts .post-image img{
+   width: 100%;
+   height: 120px;
+   border-radius: 5px 5px 0 0;
+ }
+ #posts .post-image img:hover{
+  /* padding:0 10px 0 10px; */
+  transition: 0.5s;
+ }
+ #posts .post-data{
+   margin-top: 30px;
+   color: #212121;
+   font-size: 12px;
+ }
+ #posts .post-date{
+   position: absolute;
+   bottom: 5px;
+   right: 5px;
+ }
+ #posts .more-info{
+   text-decoration: none;
+   color: #2b2b2b;
+   position: absolute;
+   bottom: 5px;
+   left: 5px;
+   font-weight: bold;
+ }
+ #posts .more-info:hover{
+   color: #000000;
+ }
+ 
+ /* footer */
+ #footer{
+  text-align: center;
+  background-color: silver;
+  margin-top: 30px;
+ }
+ #footer .socials{
+  font-size: large;
+  font-family: vazir-bold;
+  padding-top: 20px;
+ }
+ #footer svg{
+  padding: 20px;
+  font-size: 30px;
+  color: rgb(137, 35, 255);
+ }
+ #footer svg:hover{
+  color: rgb(86, 1, 183);
+ }
+ #footer .rights{
+  background-color: #000000;
+  color: #fff;
+  padding: 20px;
+ }
